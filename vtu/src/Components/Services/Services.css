@@ -1,0 +1,82 @@
+.ser_img {
+  width: 350px;
+}
+
+.ser_img .s_img {
+  width: 350px;
+}
+
+.s_img img {
+  width: 100%;
+  border-radius: 10px;
+}
+.mhhh4 h4 {
+  font-size: 40px;
+  color: #111111;
+  font-family: sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+.services {
+  display: flex;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.sercva {
+  width: 70%;
+  margin: auto;
+  margin-top: 9rem;
+}
+.serv_ {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 8px 50px -6px rgba(84, 84, 120, 0.26);
+  justify-content: center;
+  gap: 1rem;
+}
+.sd {
+  padding: 1rem;
+}
+.sd h4 {
+  font-size: 18px;
+  color: #55595c;
+  font-family: sans-serif;
+}
+.sd p {
+  font-size: 14px;
+  color: #55595c;
+  font-family: sans-serif;
+  margin-top: 1rem;
+}
+
+.serv_:hover img {
+  transition: all 0.5s ease;
+  transform: translateY(-20px);
+  background: rgb(221, 226, 239);
+}
+
+@media screen and (max-width: 1391px) {
+  .sercva {
+    width: 1330px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .sercva {
+    width: 730px;
+  }
+  .ser_img {
+    width: 550px;
+  }
+
+  .ser_img .s_img {
+    width: 550px;
+  }
+  .serv_ {
+    width: 550px;
+  }
+}

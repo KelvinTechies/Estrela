@@ -1,0 +1,44 @@
+.round_d {
+  background: rgb(238, 238, 238);
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+.d {
+  width: 300px !important;
+  text-align: center;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.t {
+  text-align: center !important;
+}
+
+.span {
+  text-decoration: line-through;
+  font-size: 40px;
+  font-weight: 700;
+}
+.cm_b {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.myfs {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.msr {
+  font-size: 40px;
+  font-weight: 700;
+}
+.myBt {
+  width: 350px !important;
+}
+
+.hover-effect:hover {
+  background-color: #52a9ff;
+  color: white;
+}

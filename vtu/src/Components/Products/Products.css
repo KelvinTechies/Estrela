@@ -1,0 +1,399 @@
+.proa {
+  width: 70%;
+  margin: auto;
+}
+
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pe {
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.pe h3 {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: royalblue;
+}
+.pe p {
+  font-size: 18px;
+  margin-top: 1rem;
+  width: 70%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #0f105e;
+}
+
+.pr_1 {
+  width: 300px;
+  padding: 1rem;
+}
+.pr_11 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+.products {
+  color: #0f105e;
+}
+.products span {
+  color: #6c757d;
+}
+.pr_11 button {
+  width: 70%;
+  border: none;
+  outline: none;
+  color: white;
+  background: royalblue;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.pr_1 p {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.pr_1 span {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.pr_2 {
+  width: 300px;
+  padding: 1rem;
+}
+.pr_12 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+.pr_12 button {
+  width: 70%;
+  border: none;
+  outline: none;
+  color: white;
+  background: royalblue;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.pr_2 p {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.pr_2 span {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.pr_3 {
+  width: 300px;
+  padding: 1rem;
+}
+.pr_13 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+.pr_13 button {
+  width: 70%;
+  border: none;
+  outline: none;
+  color: white;
+  background: royalblue;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.pr_3 p {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.pr_3 span {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.pr_4 {
+  width: 300px;
+  padding: 1rem;
+}
+.pr_14 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+.pr_14 button {
+  width: 70%;
+  border: none;
+  outline: none;
+  color: white;
+  background: royalblue;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.pr_4 p {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.pr_4 span {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.pr_11:hover {
+  background: rgb(221, 226, 239);
+  color: white;
+  padding: 1rem;
+  transition: all 0.5s ease;
+  /* box-shadow: 0 0.5px 2px grey; */
+  transform: translateY(-20px);
+  /* transform: scale(1.1); */
+  box-shadow: 0 8px 50px -6px rgba(84, 84, 120, 0.26);
+}
+.pr_12:hover {
+  background: rgb(221, 226, 239);
+  color: white;
+  padding: 1rem;
+  transition: all 0.5s ease;
+  /* box-shadow: 0 0.5px 2px grey; */
+  transform: translateY(-20px);
+  /* transform: scale(1.1); */
+  box-shadow: 0 8px 50px -6px rgba(84, 84, 120, 0.26);
+}
+
+.pr_13:hover {
+  background: rgb(221, 226, 239);
+  color: white;
+  padding: 1rem;
+  transition: all 0.5s ease;
+  /* box-shadow: 0 0.5px 2px grey; */
+  transform: translateY(-20px);
+  /* transform: scale(1.1); */
+  box-shadow: 0 8px 50px -6px rgba(84, 84, 120, 0.26);
+}
+
+.pr_14:hover {
+  background: rgb(221, 226, 239);
+  color: white;
+  padding: 1rem;
+  transition: all 0.5s ease;
+  /* box-shadow: 0 0.5px 2px grey; */
+  transform: translateY(-20px);
+  /* transform: scale(1.1); */
+  box-shadow: 0 8px 50px -6px rgba(84, 84, 120, 0.26);
+}
+
+.choose {
+  text-align: center;
+  margin-top: 4rem;
+}
+.ch p {
+  color: #55595c;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ch h3 {
+  font-size: 32px;
+  color: #111111;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 1rem;
+}
+
+.ch {
+  width: 50%;
+}
+
+.chw {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dcs {
+  width: 300px;
+  padding: 1rem;
+  margin-top: 4rem;
+  border: 1px solid #eee;
+  box-shadow: 0 8px 50px -6px rgba(84, 84, 120, 0.26);
+}
+
+.dcs h4 {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #111111;
+  padding: 1rem;
+}
+.dcs p {
+  color: #55595c;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  margin-top: 1rem;
+}
+
+.dcs:hover {
+  /* background-color: #111111; */
+  background: rgb(221, 226, 239);
+  color: #fff;
+  transition: all 0.5s ease;
+  transform: translateY(-20px);
+}
+
+.myImg {
+  width: 400px;
+}
+
+.imm {
+  width: 400px;
+}
+
+.imm img {
+  width: 100%;
+}
+.about {
+  display: flex;
+  margin-top: 7rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.about .hh4 {
+  width: 50%;
+}
+
+.about .hh4 h4 {
+  font-size: 40px;
+  color: #111111;
+  font-family: sans-serif;
+}
+
+.about .hh4 p {
+  font-size: 16px;
+  color: #55595c;
+  font-family: sans-serif;
+  line-height: 1.8;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 1391px) {
+  .pe {
+    width: 1330px;
+  }
+  .ch {
+    width: 1330px;
+  }
+  .choose {
+    width: 1330px;
+  }
+  .products {
+    width: 1330px;
+  }
+  .about {
+    width: 1330px;
+  }
+}
+
+@media screen and (max-width: 961px) {
+  .about .hh4 {
+    width: 70%;
+  }
+  .myImg {
+    width: 70%;
+  }
+  .myImg .imm {
+    width: 100%;
+  }
+  .proa {
+    width: 1600px;
+  }
+  .pe {
+    width: 1600px;
+  }
+  .ch {
+    width: 100%;
+  }
+  .choose {
+    width: 1600px;
+  }
+
+  .about {
+    width: 1600px;
+  }
+}
+@media screen and (max-width: 940px) {
+  .about .hh4 {
+    width: 70%;
+  }
+  .myImg {
+    width: 70%;
+  }
+  .myImg .imm {
+    width: 100%;
+  }
+  .proa {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .about .hh4 {
+    width: 100%;
+  }
+  .about .hh4 h4 {
+    font-size: 30px;
+  }
+  .myImg {
+    width: 100%;
+  }
+  .myImg .imm {
+    width: 100%;
+  }
+  .products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 730px;
+  }
+  .pe {
+    width: 730px;
+  }
+  .ch {
+    width: 100%;
+  }
+  .choose {
+    width: 730px;
+  }
+
+  .about {
+    width: 730px;
+  }
+}
+@media screen and (max-width: 495px) {
+  .ch {
+    width: 100%;
+  }
+}
