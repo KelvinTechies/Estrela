@@ -3,6 +3,24 @@ import { CiMobile1 } from "react-icons/ci";
 import { IoStatsChart } from "react-icons/io5";
 
 function Airtime() {
+  const airtimeProvider = [
+    {
+      id: 1,
+      name: "Mtn",
+    },
+    {
+      id: 2,
+      name: "Glo",
+    },
+    {
+      id: 3,
+      name: "Airtel",
+    },
+    {
+      id: 3,
+      name: "9Mobile",
+    },
+  ];
   return (
     <div>
       <div className="content-header">
@@ -91,13 +109,30 @@ function Airtime() {
                               <option selected="selected">
                                 Select Network
                               </option>
-                              <option>Estrela Pack 1 (&#x20A6;1,000)</option>
-                              <option>Estrela Pack 2 (&#x20A6;2,000)</option>
-                              <option>Estrela Pack 3 (&#x20A6;5,000)</option>
-                              <option>Estrela Pack 4 (&#x20A6;10,000)</option>
-                              <option>Estrela Pack 5 (&#x20A6;20,000)</option>
-                              <option>Estrela Pack 6 (&#x20A6;40,000)</option>
+                              {airtimeProvider.map((airtime) => {
+                                return (
+                                  <>
+                                    <option
+                                      key={airtime.id}
+                                      value={airtime.name}
+                                    >
+                                      {airtime.name}
+                                    </option>
+                                  </>
+                                );
+                              })}
                             </select>
+                          </div>
+                        </div>
+                        <div className="col-md-12">
+                          <div className="form-group">
+                            <label htmlFor="amount">Amount</label>
+                            <input
+                              type="number"
+                              className="form-control"
+                              id="amount"
+                              placeholder="Enter Amount"
+                            />
                           </div>
                         </div>
                         <div className="col-md-12">
@@ -158,13 +193,30 @@ function Airtime() {
                               <option selected="selected">
                                 Select Network
                               </option>
-                              <option>Estrela Pack 1 (&#x20A6;1,000)</option>
-                              <option>Estrela Pack 2 (&#x20A6;2,000)</option>
-                              <option>Estrela Pack 3 (&#x20A6;5,000)</option>
-                              <option>Estrela Pack 4 (&#x20A6;10,000)</option>
-                              <option>Estrela Pack 5 (&#x20A6;20,000)</option>
-                              <option>Estrela Pack 6 (&#x20A6;40,000)</option>
+                              {airtimeProvider.map((airtime) => {
+                                return (
+                                  <>
+                                    <option
+                                      key={airtime.id}
+                                      value={airtime.name}
+                                    >
+                                      {airtime.name}
+                                    </option>
+                                  </>
+                                );
+                              })}
                             </select>
+                          </div>
+                        </div>
+                        <div className="col-md-12">
+                          <div className="form-group">
+                            <label htmlFor="amount">Amount</label>
+                            <input
+                              type="number"
+                              className="form-control"
+                              id="amount"
+                              placeholder="Enter Amount"
+                            />
                           </div>
                         </div>
                         <div className="col-md-12">
