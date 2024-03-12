@@ -96,7 +96,7 @@ function Cable() {
             </div>
           </div>
           <div className="row col-md-12 m-auto  ">
-            {cableArr.map((cable, index) => {
+            {cableArr.map((cable) => {
               return (
                 <>
                   <div

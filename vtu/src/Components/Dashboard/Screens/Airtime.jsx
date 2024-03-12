@@ -1,6 +1,9 @@
-import React from "react";
+// import React from "react";
 import { CiMobile1 } from "react-icons/ci";
 import { IoStatsChart } from "react-icons/io5";
+// import { MtnData } from "../../../utils/app";
+import axios from "axios";
+import { useEffect, useState } from "react";
 
 function Airtime() {
   const airtimeProvider = [
@@ -21,6 +24,7 @@ function Airtime() {
       name: "9Mobile",
     },
   ];
+
   return (
     <div>
       <div className="content-header">

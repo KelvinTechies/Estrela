@@ -1,10 +1,29 @@
-import React, { useState } from "react";
+import axios from "axios";
+import React, { useEffect, useState } from "react";
 import { CiMobile1 } from "react-icons/ci";
 import { IoStatsChart } from "react-icons/io5";
 
 function Data() {
   const [select, setSelect] = useState();
   const [anotherSelect, setAnotherSelect] = useState();
+  const [datas, setDatas] = useState([]);
+
+  const getAllDatas = async () => {
+    try {
+      await axios
+        .get("https://api.epins.com.ng/v2/autho/variations/?service=sme")
+        .then((res) => setDatas(res.data.description));
+    } catch (error) {
+      console.error("Error fetching data:", error);
+    }
+  };
+
+  useEffect(() => {
+    getAllDatas();
+  }, []); // Run once when the component mounts
+
+  console.log(datas);
+
   const networkProvider = [
     {
       id: 1,
@@ -128,8 +147,8 @@ function Data() {
                             <label htmlFor="exampleInputPassword1">
                               Network
                             </label>
-                            <select
-                              onChange={(e) => setSelect(e.target.value)}
+                            {/*   <select
+                              onChange={(e) => setDatas(e.target.value)}
                               id="network"
                               className="form-control select2bs4 col-md-12"
                               name="attribute_network"
@@ -137,18 +156,39 @@ function Data() {
                               data-show_option_none="yes"
                             >
                               <option value="">Choose Network</option>
-                              {networkProvider.map((p) => {
+                              {datas.map((p) => {
                                 return (
                                   <>
                                     <option
-                                      value={p.name}
+                                      value={p.network}
                                       className="attached enabled"
                                     >
-                                      {p.name}
+                                      {p.network}
                                     </option>
                                   </>
                                 );
                               })}
+                            </select> */}
+
+                            <select
+                              id="network"
+                              className="form-control select2bs4 col-md-12"
+                              name="attribute_network"
+                              data-attribute_name="attribute_network"
+                              data-show_option_none="yes"
+                              onChange={(e) => setSelect(e.target.value)}
+                            >
+                              <option value="">Choose Network</option>
+                              {datas.length > 0 &&
+                                datas.map((p, index) => (
+                                  <option
+                                    key={index}
+                                    value={p.network}
+                                    className="attached enabled"
+                                  >
+                                    {p.network}
+                                  </option>
+                                ))}
                             </select>
                           </div>
                         </div>
